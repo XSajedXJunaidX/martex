@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+header{
+    background: url(img/hero-1.jpg) center center no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+    background-attachment: fixed;
+}
+
+nav img{
+    height: 40px;
+    width: auto;
+}
+
+nav .nav-link{
+    font-size: 18px;
+    color: white !important;
+    padding: 10px 15px;
+    margin: 0px 7px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+nav .nav-item .btn{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 4px 22px 6px;
+    margin: 10px 5px 0px;
+    font-weight: 500;
+    color: white;
+    background: #f74480;
+    border: 2px solid #f74480;
+}
+
+nav .nav-item .btn:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+
+.dropdown-menu.show{
+    padding: 10px;
+}
+
+.dropdown-menu.show li a{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    width: 200px;
+}
+
+.dropdown-menu.show li a:hover{
+    color: #f74480;
+}
+
+.banner img{
+    height: auto;
+    width: 100%;
+}
+
+.banner h1{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 28px;
+    font-weight: 700;
+}
+
+.banner .top{
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.start a, .banner a{
+    background: #f74480;
+    color: white;
+    font-size: 18px;
+    padding: 12px 28px;
+    border: 2px solid #f74480;
+    font-weight: 600;
+    word-spacing: 3px;
+}
+
+.start a:hover, .banner a:hover{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.start .bottom, .banner .bottom{
+    color: white;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.essentials, .marketing{
+    padding: 80px 0px;
+}
+
+.marketing .title{
+    width: 60%;
+    margin: auto;
+}
+
+.audience .title h1, .marketing .title h1{
+    font-size: 58px;
+    color: #353f4f;
+    font-weight: 700;
+}
+
+.audience .title p, .marketing .title p{
+    font-size: 24px;
+    color: #757575;
+    margin: 18px 0px 70px;
+    font-weight: 500;
+}
+
+.marketing .row h4{
+    font-size: 23px;
+    color: #353f4f;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.marketing .row p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.engagement{
+    padding-top: 80px;
+}
+
+.engagement .row{
+    margin-bottom: 80px;
+}
+
+.focus img, .audience img, .engagement img{
+    width: 100%;
+    height: auto;
+}
+
+.essentials h6, .solutions h6, .engagement h6{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #757575;
+}
+
+.focus h3, .essentials h3, .solutions h3, .engagement h3{
+    font-size: 53px;
+    color: #353f4f;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.access h5, .engagement h5{
+    font-size: 28px;
+    color: #353f4f;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.focus p, .essentials p, .solutions p, .access p, .engagement p{
+    font-size: 19px;
+    margin-bottom: 18px;
+    color: #757575;
+    font-weight: 500;
+}
+
+.audience .title{
+    width: 70%;
+    margin: auto;
+}
+
+.audience .box{
+    background-color: #f4f4f9;
+    padding: 60px;
+    border-radius: 20px;
+    height: 630px;
+}
+
+.audience .box h5{
+    font-size: 30px;
+    color: #353f4f;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.audience .box p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.audience .stats{
+    padding: 100px 0px;
+}
+
+.audience .stats h2{
+    font-size: 53px;
+    color: #353f4f;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+
+.audience .stats p{
+    font-size: 19px;
+    color: #757575;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.access{
+    padding: 100px 0px;
+    border-top: 1px solid #bbb;
+}
+
+.access img{
+    width: 602px;
+    height: auto;
+}
+
+.access a{
+    color: #353f4f;
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 13px 28px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.insight a:hover, .access a:hover{
+    background-color: #f74480;
+    border: 2px solid #f74480;
+}
+
+footer ul, .focus ul, .solutions ul{
+    padding: 0;
+}
+
+footer li, .focus li, .solutions li{
+    list-style: none;
+}
+
+.focus i, .solutions i{
+    color: #f74480;
+    line-height: 26px;
+    margin-right: 5px;
+}
+
+.solutions .box{
+    padding: 32px 35px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .08);
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+    background-color: white;
+}
+
+.solutions .box h4{
+    font-size: 22px;
+    color: #353f4f;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.solutions .box p{
+    font-size: 19px;
+    margin-bottom: 0px;
+    font-weight: 500px;
+    color: #757575;
+    line-height: 32px;
+}
+
+.solutions .rec{
+    position: absolute;
+    height: 500px;
+    width: 45%;
+    background-color: #f2f4f8;
+    bottom: 50px;
+    right: 0px;
+    z-index: 1;
+}
+
+.solutions .row-p{
+    padding-right: 40px;
+}
+
+.track{
+    padding-top: 100px;
+    background: url(img/bg-04.jpg) center top no-repeat;
+    background-size: 100%;
+}
+
+.track .text-center{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.insight h2, .complete h2, .track h2{
+    font-size: 58px;
+    font-weight: 700;
+    color: #353f4f;
+}
+
+.insight .title p, .complete .title p, .track p{
+    font-size: 24px;
+    margin-top: 18px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.track img{
+    width: 100%;
+    height: auto;
+}
+
+.slider{
+    padding: 80px 0px 100px;
+    border-bottom: 1px solid #bbb;
+}
+
+.slider h4{
+    color: #353f4f;
+    font-size: 21px;
+    margin-bottom: 60px;
+    font-weight: 600;
+}
+
+.complete{
+    padding: 100px 0px;
+    border-bottom: 1px solid #bbb
+}
+
+.insight .title, .complete .title{
+    margin-bottom: 80px;
+}
+
+.complete .box{
+    background-image: linear-gradient(180deg, rgba(244, 244, 249, .8) 50%, rgba(244, 244, 249, .05) 100%);
+    border-radius: 12px 12px 0 0;
+    padding: 42px 60px 0px;
+    margin: 0px 8px 60px;
+}
+
+.complete img{
+    height: auto;
+    width: 100%;
+}
+
+.complete .row h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #353f4f;
+    font-weight: 700;
+}
+
+.insight .bottom, .complete .row p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.focus{
+    padding: 100px 0px;
+}
+
+.insight .content{
+    width: 75%;
+}
+
+.insight a{
+    color: #353f4f;
+    border: 2px solid black;
+    font-size: 18px;
+    padding: 14px 32px;
+    margin: 60px 0px 20px;
+    font-weight: 700;
+}
+
+.segments{
+    padding: 100px 0px;
+}
+
+.segments .icon{
+    height: 46px;
+    width: 46px;
+    background-color: #f74480;
+    border: 2px solid #f74480;
+    border-radius: 23px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    transition: 0.5s;
+    line-height: 40px;
+}
+
+.segments .line{
+    background-color: #e4e4e4;
+    height: 86px;
+    width: 2px;
+    margin: 20px 0px 20px 19px;
+}
+
+.segments .text h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: #353f4f;
+    margin-bottom: 15px;
+}
+
+.segments .text p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 0px;
+}
+
+.box-1:hover .icon-1{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: #f74480;
+    transition: 0.5s;
+}
+
+.box-2:hover .icon-2{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: #f74480;
+    transition: 0.5s;
+}
+
+.box-3:hover .icon-3{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: #f74480;
+    transition: 0.5s;
+}
+
+.start .container{
+    background: url(img/bg-03.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
+
+.start .content{
+    width: 60%;
+    margin: 75px 0px;
+}
+
+.start h2{
+    font-size: 55px;
+    color: white;
+    font-weight: 700;
+}
+
+.start .top{
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    margin: 20px 0px 25px;
+}
+
+footer .container{
+    margin-top: 80px;
+    padding: 50px 0px;
+    border-top: solid 1px #bbb;
+    color: #757575;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+footer li{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+footer i{
+    transition: 500ms;
+}
+
+footer i:hover{
+    transform: scale(1.2);
+    transition: 500ms;
+}
+
+
+
+
+
+    
